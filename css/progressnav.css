@@ -1,9 +1,15 @@
+body, html{
+	margin: 0 0 0 0;
+}
+.clear{
+	clear: both;
+}
 nav{
 	position: relative;
-	width: 100%;
 	margin: 0px auto;
-	height: 32px;
+	height: auto;
 	background-color: #ccc;
+	display: block;
 }
 
 ul.fullnav{
@@ -112,4 +118,138 @@ a:active{outline: none;}
 .menuActive{
 	background: #00A89C;
 	color: white!important;
+}
+
+/****** *****/
+ul.listTab[data-step="paso-1"] .first .circle{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-1"] .first .line{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-1"] .second .line{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-2"] .first .line{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-2"] .second .circle{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-2"] .second .line{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-2"] .second .line2{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-2"] .three .line{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-3"] .second .line2{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-3"] .three .circle{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-3"] .three .line{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-3"] .three .line2{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-3"] .after .line{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-4"] .three .line2{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-4"] .after .line{
+    background-color: #009b3a;
+}
+ul.listTab[data-step="paso-4"] .after .circle{
+    background-color: #009b3a;
+}
+
+.listTab{
+	padding: 0 0 0 0;
+	margin: 0 auto 0 auto;
+	max-width: 674px;
+	
+}
+.listTab li{
+	list-style: none;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 0;
+	float: left;
+	position: relative;
+}
+.listTab li p{
+	font-size: 12px;
+	margin: 0 0 0 0;
+	width: 80px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 auto 0 auto;
+}
+.listTab li p a{
+	display: block;
+	text-decoration: none;
+	color: #8b8d8e;
+}
+.listTab li .circle{
+	width: 20px;
+	height: 20px;
+	background-color: #8b8d8e;
+	border-radius: 50%;
+	position: relative;
+	z-index: 4;
+	margin: 0 auto 0 auto;
+}
+.listTab li .line{
+	width: 50%;
+	height: 3px;
+	background-color: #8b8d8e;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 9px;
+	z-index: 1;
+}
+.listTab li .line2{
+	width: 50%;
+	height: 3px;
+	background-color: #8b8d8e;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 9px;
+	z-index: 1;
+}
+
+.listTab li.first .circle{
+	left: 27px;
+	margin: 0 0 0 0;
+}
+.listTab li.first .line{
+	left: 34px;
+	width: 100%;
+}
+.listTab li.first p{
+	margin: 0 0 0 0;
+}
+.listTab li.after .circle{
+	right: -74%;
+	margin: 0 0 0 0;
+}
+.listTab li.after .line{
+	width: 80%;
+}
+.listTab li.after p{
+	text-align: right;
+	margin: 0 0 0 0;
+	width: 100%;
+	padding: 7px 0 0 0;
 }
